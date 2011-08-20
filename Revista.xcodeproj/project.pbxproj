@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8A8D2F14000379006830E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8D2E14000379006830E3 /* UIKit.framework */; };
+		ED8A8D3114000379006830E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8D3014000379006830E3 /* Foundation.framework */; };
+		ED8A8D3314000379006830E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8A8D3214000379006830E3 /* CoreGraphics.framework */; };
+		ED8A8D3914000379006830E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8A8D3714000379006830E3 /* InfoPlist.strings */; };
+		ED8A8D3B14000379006830E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8A8D3A14000379006830E3 /* main.m */; };
+		ED8A8D3F14000379006830E3 /* RevistaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8A8D3E14000379006830E3 /* RevistaAppDelegate.m */; };
+		ED8A8D4214000379006830E3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8A8D4014000379006830E3 /* MainWindow.xib */; };
+		ED8A8D4514000379006830E3 /* RevistaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8A8D4414000379006830E3 /* RevistaViewController.m */; };
+		ED8A8D4814000379006830E3 /* RevistaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8A8D4614000379006830E3 /* RevistaViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED8A8D2A14000379006830E3 /* Revista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8A8D2E14000379006830E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED8A8D3014000379006830E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED8A8D3214000379006830E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED8A8D3614000379006830E3 /* Revista-Info.plist */ = {isa = PBXFileReference; path = "Revista-Info.plist"; sourceTree = "<group>"; };
+		ED8A8D3814000379006830E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED8A8D3A14000379006830E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED8A8D3C14000379006830E3 /* Revista-Prefix.pch */ = {isa = PBXFileReference; path = "Revista-Prefix.pch"; sourceTree = "<group>"; };
+		ED8A8D3D14000379006830E3 /* RevistaAppDelegate.h */ = {isa = PBXFileReference; path = RevistaAppDelegate.h; sourceTree = "<group>"; };
+		ED8A8D3E14000379006830E3 /* RevistaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevistaAppDelegate.m; sourceTree = "<group>"; };
+		ED8A8D4114000379006830E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ED8A8D4314000379006830E3 /* RevistaViewController.h */ = {isa = PBXFileReference; path = RevistaViewController.h; sourceTree = "<group>"; };
+		ED8A8D4414000379006830E3 /* RevistaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevistaViewController.m; sourceTree = "<group>"; };
+		ED8A8D4714000379006830E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RevistaViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8A8D2714000379006830E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8A8D2F14000379006830E3 /* UIKit.framework in Frameworks */,
+				ED8A8D3114000379006830E3 /* Foundation.framework in Frameworks */,
+				ED8A8D3314000379006830E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED8A8D1F14000379006830E3 = {
+			isa = PBXGroup;
+			children = (
+				ED8A8D3414000379006830E3 /* Revista */,
+				ED8A8D2D14000379006830E3 /* Frameworks */,
+				ED8A8D2B14000379006830E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8A8D2B14000379006830E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8A8D2A14000379006830E3 /* Revista.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8A8D2D14000379006830E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED8A8D2E14000379006830E3 /* UIKit.framework */,
+				ED8A8D3014000379006830E3 /* Foundation.framework */,
+				ED8A8D3214000379006830E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8A8D3414000379006830E3 /* Revista */ = {
+			isa = PBXGroup;
+			children = (
+				ED8A8D3D14000379006830E3 /* RevistaAppDelegate.h */,
+				ED8A8D3E14000379006830E3 /* RevistaAppDelegate.m */,
+				ED8A8D4014000379006830E3 /* MainWindow.xib */,
+				ED8A8D4314000379006830E3 /* RevistaViewController.h */,
+				ED8A8D4414000379006830E3 /* RevistaViewController.m */,
+				ED8A8D4614000379006830E3 /* RevistaViewController.xib */,
+				ED8A8D3514000379006830E3 /* Supporting Files */,
+			);
+			path = Revista;
+			sourceTree = "<group>";
+		};
+		ED8A8D3514000379006830E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED8A8D3614000379006830E3 /* Revista-Info.plist */,
+				ED8A8D3714000379006830E3 /* InfoPlist.strings */,
+				ED8A8D3A14000379006830E3 /* main.m */,
+				ED8A8D3C14000379006830E3 /* Revista-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8A8D2914000379006830E3 /* Revista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8A8D4B14000379006830E3 /* Build configuration list for PBXNativeTarget "Revista" */;
+			buildPhases = (
+				ED8A8D2614000379006830E3 /* Sources */,
+				ED8A8D2714000379006830E3 /* Frameworks */,
+				ED8A8D2814000379006830E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Revista;
+			productName = Revista;
+			productReference = ED8A8D2A14000379006830E3 /* Revista.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8A8D2114000379006830E3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ED8A8D2414000379006830E3 /* Build configuration list for PBXProject "Revista" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED8A8D1F14000379006830E3;
+			productRefGroup = ED8A8D2B14000379006830E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8A8D2914000379006830E3 /* Revista */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8A8D2814000379006830E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8A8D3914000379006830E3 /* InfoPlist.strings in Resources */,
+				ED8A8D4214000379006830E3 /* MainWindow.xib in Resources */,
+				ED8A8D4814000379006830E3 /* RevistaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8A8D2614000379006830E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8A8D3B14000379006830E3 /* main.m in Sources */,
+				ED8A8D3F14000379006830E3 /* RevistaAppDelegate.m in Sources */,
+				ED8A8D4514000379006830E3 /* RevistaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED8A8D3714000379006830E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8A8D3814000379006830E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED8A8D4014000379006830E3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8A8D4114000379006830E3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ED8A8D4614000379006830E3 /* RevistaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8A8D4714000379006830E3 /* en */,
+			);
+			name = RevistaViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8A8D4914000379006830E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ED8A8D4A14000379006830E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8A8D4C14000379006830E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Revista/Revista-Prefix.pch";
+				INFOPLIST_FILE = "Revista/Revista-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED8A8D4D14000379006830E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Revista/Revista-Prefix.pch";
+				INFOPLIST_FILE = "Revista/Revista-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8A8D2414000379006830E3 /* Build configuration list for PBXProject "Revista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8A8D4914000379006830E3 /* Debug */,
+				ED8A8D4A14000379006830E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8A8D4B14000379006830E3 /* Build configuration list for PBXNativeTarget "Revista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8A8D4C14000379006830E3 /* Debug */,
+				ED8A8D4D14000379006830E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8A8D2114000379006830E3 /* Project object */;
+}
